@@ -1,0 +1,120 @@
+header {
+    background: none;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+    
+}
+
+body{
+    background-image: url(back.jpg) 
+}
+.logo{
+    text-decoration: none;
+    color: #e9700e;
+    text-transform: uppercase;
+    font-weight:bolder;
+    border-radius: 20px;
+    border: solid rgb(247, 242, 242) ;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  
+}
+.nav-bar a{
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+    background: none;
+}
+
+.nav-bar a:hover{
+    color: #e421a0;
+}
+main{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.apropos h2 {
+   color: white;
+      
+}
+.apropos p {
+    border-radius: 20px;
+    border: solid;
+    padding-left:20px;
+    padding-right: 20px;
+    width: 400px;
+    height: 100px;
+    padding : 20px 20px;
+    background-color: #535d79;
+
+}
+.CVV dl{
+    border-radius: 20px;
+background-color: #535d79;
+    border: solid;
+    padding-left:20px;
+    padding-right: 20px;
+    width: 400px;
+    height: 100px;
+    padding : 18px 18px;
+}
+.CVV h2{
+    
+    color: white;
+}
+
+.contact{
+  
+color: aliceblue;
+position: absolute;
+    bottom: 100px;
+    height: 300px;
+    width: 250px;
+    place-content: center;
+    bottom: 60px;
+    display: flex;
+    flex-direction: column;
+
+}
+.contact h1 {
+    float: center;
+    display: flex;
+padding-left: 45px;
+}
+
+    .contact-form-text{
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 16px 0;
+        border: 0;
+        background: #111;
+        padding: 20px 40px;
+        outline: none;
+        color: #ddd;
+        transition: 0.5s;
+    }
+button{
+background-color: #db5820;
+
+}
+.footer{
+  position: relative;
+  top: 500px;
+  width: auto;
+  height: 60px;
+    border: none;
+  background-color: #535d79;
+  color: #e9700e;
+ padding: 10px;
+ font-weight: 200;
+}
